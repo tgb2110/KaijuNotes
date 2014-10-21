@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6114572519F5A5BF0070572A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6114572419F5A5BF0070572A /* CoreData.framework */; };
+		6114572819F5AB8B0070572A /* ViewNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6114572719F5AB8B0070572A /* ViewNoteViewController.m */; };
+		61333F9719F4B1E80034269D /* kaijuStockImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61333F9619F4B1E80034269D /* kaijuStockImage.jpg */; };
+		6146372419F4B8BC002B42F4 /* NoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6146372319F4B8BC002B42F4 /* NoteTableViewCell.m */; };
+		6146372919F4C907002B42F4 /* kaijuNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 6146372819F4C907002B42F4 /* kaijuNote.m */; };
+		6146372C19F4CB52002B42F4 /* kaijuNoteDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6146372B19F4CB52002B42F4 /* kaijuNoteDataStore.m */; };
+		6146372F19F4D581002B42F4 /* AddNewNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6146372E19F4D581002B42F4 /* AddNewNoteViewController.m */; };
+		6146373119F4E041002B42F4 /* noPhotoStockImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6146373019F4E041002B42F4 /* noPhotoStockImage.jpg */; };
+		618F50D719F4A66C0014A50A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 618F50D619F4A66C0014A50A /* main.m */; };
+		618F50DA19F4A66C0014A50A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 618F50D919F4A66C0014A50A /* AppDelegate.m */; };
+		618F50E019F4A66C0014A50A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618F50DE19F4A66C0014A50A /* Main.storyboard */; };
+		618F50E219F4A66C0014A50A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618F50E119F4A66C0014A50A /* Images.xcassets */; };
+		618F50E519F4A66C0014A50A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618F50E319F4A66C0014A50A /* LaunchScreen.xib */; };
+		618F50F119F4A66C0014A50A /* KaijuNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 618F50F019F4A66C0014A50A /* KaijuNotesTests.m */; };
+		618F50FC19F4A7A60014A50A /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618F50FB19F4A7A60014A50A /* MainTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		618F50EB19F4A66C0014A50A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 618F50C919F4A66B0014A50A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 618F50D019F4A66B0014A50A;
+			remoteInfo = KaijuNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6114572419F5A5BF0070572A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6114572619F5AB8B0070572A /* ViewNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewNoteViewController.h; sourceTree = "<group>"; };
+		6114572719F5AB8B0070572A /* ViewNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewNoteViewController.m; sourceTree = "<group>"; };
+		61333F9619F4B1E80034269D /* kaijuStockImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kaijuStockImage.jpg; path = KaijuNotes/Assets/kaijuStockImage.jpg; sourceTree = "<group>"; };
+		6146372219F4B8BC002B42F4 /* NoteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteTableViewCell.h; sourceTree = "<group>"; };
+		6146372319F4B8BC002B42F4 /* NoteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteTableViewCell.m; sourceTree = "<group>"; };
+		6146372719F4C907002B42F4 /* kaijuNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kaijuNote.h; sourceTree = "<group>"; };
+		6146372819F4C907002B42F4 /* kaijuNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kaijuNote.m; sourceTree = "<group>"; };
+		6146372A19F4CB52002B42F4 /* kaijuNoteDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kaijuNoteDataStore.h; sourceTree = "<group>"; };
+		6146372B19F4CB52002B42F4 /* kaijuNoteDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kaijuNoteDataStore.m; sourceTree = "<group>"; };
+		6146372D19F4D581002B42F4 /* AddNewNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewNoteViewController.h; sourceTree = "<group>"; };
+		6146372E19F4D581002B42F4 /* AddNewNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewNoteViewController.m; sourceTree = "<group>"; };
+		6146373019F4E041002B42F4 /* noPhotoStockImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = noPhotoStockImage.jpg; path = KaijuNotes/Assets/noPhotoStockImage.jpg; sourceTree = "<group>"; };
+		618F50D119F4A66B0014A50A /* KaijuNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaijuNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		618F50D519F4A66B0014A50A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618F50D619F4A66C0014A50A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		618F50D819F4A66C0014A50A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		618F50D919F4A66C0014A50A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		618F50DF19F4A66C0014A50A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		618F50E119F4A66C0014A50A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = KaijuNotes/Images.xcassets; sourceTree = "<group>"; };
+		618F50E419F4A66C0014A50A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		618F50EA19F4A66C0014A50A /* KaijuNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaijuNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		618F50EF19F4A66C0014A50A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618F50F019F4A66C0014A50A /* KaijuNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaijuNotesTests.m; sourceTree = "<group>"; };
+		618F50FA19F4A7A60014A50A /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		618F50FB19F4A7A60014A50A /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		618F50CE19F4A66B0014A50A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6114572519F5A5BF0070572A /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618F50E719F4A66C0014A50A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61333F9819F4B2080034269D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				618F50E119F4A66C0014A50A /* Images.xcassets */,
+				618F50E319F4A66C0014A50A /* LaunchScreen.xib */,
+				6146373019F4E041002B42F4 /* noPhotoStockImage.jpg */,
+				61333F9619F4B1E80034269D /* kaijuStockImage.jpg */,
+			);
+			name = Assets;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6146372119F4B877002B42F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6146372D19F4D581002B42F4 /* AddNewNoteViewController.h */,
+				6146372E19F4D581002B42F4 /* AddNewNoteViewController.m */,
+				6114572619F5AB8B0070572A /* ViewNoteViewController.h */,
+				6114572719F5AB8B0070572A /* ViewNoteViewController.m */,
+				618F50FA19F4A7A60014A50A /* MainTableViewController.h */,
+				618F50FB19F4A7A60014A50A /* MainTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6146372519F4B8C7002B42F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6146372219F4B8BC002B42F4 /* NoteTableViewCell.h */,
+				6146372319F4B8BC002B42F4 /* NoteTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6146372619F4B8DD002B42F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6146372719F4C907002B42F4 /* kaijuNote.h */,
+				6146372819F4C907002B42F4 /* kaijuNote.m */,
+				6146372A19F4CB52002B42F4 /* kaijuNoteDataStore.h */,
+				6146372B19F4CB52002B42F4 /* kaijuNoteDataStore.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		618F50C819F4A66B0014A50A = {
+			isa = PBXGroup;
+			children = (
+				618F50D319F4A66B0014A50A /* KaijuNotes */,
+				6114572419F5A5BF0070572A /* CoreData.framework */,
+				618F50ED19F4A66C0014A50A /* KaijuNotesTests */,
+				618F50D219F4A66B0014A50A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		618F50D219F4A66B0014A50A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				618F50D119F4A66B0014A50A /* KaijuNotes.app */,
+				618F50EA19F4A66C0014A50A /* KaijuNotesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		618F50D319F4A66B0014A50A /* KaijuNotes */ = {
+			isa = PBXGroup;
+			children = (
+				618F50DE19F4A66C0014A50A /* Main.storyboard */,
+				6146372619F4B8DD002B42F4 /* Models */,
+				6146372519F4B8C7002B42F4 /* Views */,
+				6146372119F4B877002B42F4 /* Controllers */,
+				61333F9819F4B2080034269D /* Assets */,
+				618F50D419F4A66B0014A50A /* Supporting Files */,
+			);
+			path = KaijuNotes;
+			sourceTree = "<group>";
+		};
+		618F50D419F4A66B0014A50A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				618F50D819F4A66C0014A50A /* AppDelegate.h */,
+				618F50D919F4A66C0014A50A /* AppDelegate.m */,
+				618F50D519F4A66B0014A50A /* Info.plist */,
+				618F50D619F4A66C0014A50A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		618F50ED19F4A66C0014A50A /* KaijuNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				618F50F019F4A66C0014A50A /* KaijuNotesTests.m */,
+				618F50EE19F4A66C0014A50A /* Supporting Files */,
+			);
+			path = KaijuNotesTests;
+			sourceTree = "<group>";
+		};
+		618F50EE19F4A66C0014A50A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				618F50EF19F4A66C0014A50A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		618F50D019F4A66B0014A50A /* KaijuNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618F50F419F4A66C0014A50A /* Build configuration list for PBXNativeTarget "KaijuNotes" */;
+			buildPhases = (
+				618F50CD19F4A66B0014A50A /* Sources */,
+				618F50CE19F4A66B0014A50A /* Frameworks */,
+				618F50CF19F4A66B0014A50A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaijuNotes;
+			productName = KaijuNotes;
+			productReference = 618F50D119F4A66B0014A50A /* KaijuNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		618F50E919F4A66C0014A50A /* KaijuNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618F50F719F4A66C0014A50A /* Build configuration list for PBXNativeTarget "KaijuNotesTests" */;
+			buildPhases = (
+				618F50E619F4A66C0014A50A /* Sources */,
+				618F50E719F4A66C0014A50A /* Frameworks */,
+				618F50E819F4A66C0014A50A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				618F50EC19F4A66C0014A50A /* PBXTargetDependency */,
+			);
+			name = KaijuNotesTests;
+			productName = KaijuNotesTests;
+			productReference = 618F50EA19F4A66C0014A50A /* KaijuNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		618F50C919F4A66B0014A50A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "System Administrator";
+				TargetAttributes = {
+					618F50D019F4A66B0014A50A = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = J5DTL34WHU;
+					};
+					618F50E919F4A66C0014A50A = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 618F50D019F4A66B0014A50A;
+					};
+				};
+			};
+			buildConfigurationList = 618F50CC19F4A66B0014A50A /* Build configuration list for PBXProject "KaijuNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 618F50C819F4A66B0014A50A;
+			productRefGroup = 618F50D219F4A66B0014A50A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				618F50D019F4A66B0014A50A /* KaijuNotes */,
+				618F50E919F4A66C0014A50A /* KaijuNotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		618F50CF19F4A66B0014A50A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618F50E019F4A66C0014A50A /* Main.storyboard in Resources */,
+				61333F9719F4B1E80034269D /* kaijuStockImage.jpg in Resources */,
+				618F50E519F4A66C0014A50A /* LaunchScreen.xib in Resources */,
+				618F50E219F4A66C0014A50A /* Images.xcassets in Resources */,
+				6146373119F4E041002B42F4 /* noPhotoStockImage.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618F50E819F4A66C0014A50A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		618F50CD19F4A66B0014A50A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618F50FC19F4A7A60014A50A /* MainTableViewController.m in Sources */,
+				6146372F19F4D581002B42F4 /* AddNewNoteViewController.m in Sources */,
+				618F50DA19F4A66C0014A50A /* AppDelegate.m in Sources */,
+				6114572819F5AB8B0070572A /* ViewNoteViewController.m in Sources */,
+				6146372C19F4CB52002B42F4 /* kaijuNoteDataStore.m in Sources */,
+				618F50D719F4A66C0014A50A /* main.m in Sources */,
+				6146372919F4C907002B42F4 /* kaijuNote.m in Sources */,
+				6146372419F4B8BC002B42F4 /* NoteTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618F50E619F4A66C0014A50A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618F50F119F4A66C0014A50A /* KaijuNotesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		618F50EC19F4A66C0014A50A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 618F50D019F4A66B0014A50A /* KaijuNotes */;
+			targetProxy = 618F50EB19F4A66C0014A50A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		618F50DE19F4A66C0014A50A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618F50DF19F4A66C0014A50A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		618F50E319F4A66C0014A50A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618F50E419F4A66C0014A50A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = KaijuNotes;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		618F50F219F4A66C0014A50A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		618F50F319F4A66C0014A50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		618F50F519F4A66C0014A50A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KaijuNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		618F50F619F4A66C0014A50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KaijuNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		618F50F819F4A66C0014A50A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KaijuNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaijuNotes.app/KaijuNotes";
+			};
+			name = Debug;
+		};
+		618F50F919F4A66C0014A50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KaijuNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaijuNotes.app/KaijuNotes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		618F50CC19F4A66B0014A50A /* Build configuration list for PBXProject "KaijuNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618F50F219F4A66C0014A50A /* Debug */,
+				618F50F319F4A66C0014A50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618F50F419F4A66C0014A50A /* Build configuration list for PBXNativeTarget "KaijuNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618F50F519F4A66C0014A50A /* Debug */,
+				618F50F619F4A66C0014A50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618F50F719F4A66C0014A50A /* Build configuration list for PBXNativeTarget "KaijuNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618F50F819F4A66C0014A50A /* Debug */,
+				618F50F919F4A66C0014A50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 618F50C919F4A66B0014A50A /* Project object */;
+}
